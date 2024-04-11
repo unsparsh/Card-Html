@@ -1,0 +1,66 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+    box-sizing: border-box;
+   
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.card{
+    /* padding: 12px; */
+    height: 400px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+#rightcard img{
+    height: 57.1vh;
+    width: 27vw;
+    /* background-image: ; */
+} 
+
+#leftcard{
+    padding: 42px;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(139, 32, 177);
+    word-wrap: normal;
+    text-align: center;
+    
+    /* height: 30%;
+    width: 30%; */
+}
+
+#leftcard h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#leftkalast{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
